@@ -1,11 +1,12 @@
 import "./App.css"
+import LineChartFromCSV from "./features/chart/Chart"
 import { Counter } from "./features/counter/Counter"
 import { Quotes } from "./features/quotes/Quotes"
 import Todos from "./features/todos/Todos"
 import logo from "./logo.svg"
 
-const App: React.FC = () => {
-  return <Todos />
+const App = () => {
+  return <LineChartFromCSV />
 }
 
 // const App = () => {
